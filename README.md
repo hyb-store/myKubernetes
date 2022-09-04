@@ -777,7 +777,7 @@ spec:
 
 然后就可以执行对应的更新命令了：kubectl apply -f pod-nginx.yaml
 
-### 4.Deployment
+### 4.Deployment	
 
 在kubernetes中，Pod是最小的控制单元，但是kubernetes很少直接控制Pod，一般都是通过Pod控制器来完成的。Pod控制器用于pod的管理，确保pod资源符合预期的状态，当pod的资源出现故障时，会尝试进行重启或重建pod。
 
